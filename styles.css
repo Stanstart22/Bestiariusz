@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+* {
+  font-family: "Inter", sans-serif;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+img {
+  display: flex;
+  align-items: center;
+}
+.nav_list {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+.nav_list_item {
+  display: inline;
+  margin: 24px;
+  font-size: 36px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.monster {
+  display: flex;
+  border: solid;
+  border-width: 2px;
+  border-radius: 8px;
+  border-color: #6f6f6f;
+  background-color: rgba(111, 111, 111, 0.5);
+  padding: 24px;
+  width: 428px;
+  height: 143px;
+}
+.monster_text {
+  margin-left: 48px;
+  margin-bottom: 24px;
+}
+.monster_title {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 120%;
+  width: 100%;
+}
+.monster_attributes_list {
+  list-style-type: none;
+  font-size: 14px;
+  padding-left: 0;
+}
+.monster_type {
+  font-size: 14px;
+  color: #414141;
+  margin-top: 7px;
+  margin-bottom: 24px;
+}
+.monster_image {
+  width: 222px;
+  height: 143px;
+}
+.monsters-row {
+  display: flex;
+  gap: 48px;
+}
+.monsters {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+.background{
+  background-image: url("./assets/background_forest.png");
+  background-repeat: no-repeat;
+  background-position: center 0;
+  width: 1280px;
+  height: 713px;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+.background_gradient{
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 13%,
+    rgba(255, 255, 255, 0) 100%
+  );
+width: 100%;
+height: 100%;
+}
